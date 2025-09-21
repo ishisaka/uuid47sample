@@ -1,6 +1,4 @@
-//UUID47を使用して、uuidv7をuuidv4風に変換し、また元に戻すサンプルコード
-
-// main.go
+// UUID47を使用して、uuidv7をuuidv4風に変換し、また元に戻すサンプルコード
 package main
 
 import (
