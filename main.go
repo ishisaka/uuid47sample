@@ -16,7 +16,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println("uuid v7: " + u.String())
+	fmt.Printf("uuid v7: %s\n", u.String())
 
 	// 変換用キーを作成する
 	key := uuid47.Key{K0: 0x0123456789abcdef, K1: 0xfedcba9876543210}
